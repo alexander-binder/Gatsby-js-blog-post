@@ -27,8 +27,8 @@ module.exports = {
       options: {
         name: `images`,
         path: `${__dirname}/src/images`
-      } 
-    }
+      } ,
+    },
     `gatsby-plugin-image`,
     `gatsby-plugin-sharp`,
     `gatsby-transformer-sharp`,
@@ -44,7 +44,7 @@ module.exports = {
             },
           }
         ]
-      } 
+      },
     },
     {
       resolve: `gatsby-plugin-google-fonts`,
