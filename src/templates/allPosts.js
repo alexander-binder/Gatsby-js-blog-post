@@ -35,6 +35,7 @@ const allPosts = ({ pageContext, data }) => {
                     date={post.node.frontmatter.date} 
                     title={post.node.frontmatter.title} 
                     content={post.node.frontmatter.content}
+                    slug={post.node.frontmatter.slug}
                  />
             ))}
             

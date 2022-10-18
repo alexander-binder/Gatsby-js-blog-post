@@ -7,3 +7,4 @@ export * from "./TypogarphyElements";
 export * from "./CradElements";
 export * from "./ButtonElements";
 export * from "./PaginationElements";
+export * from "./PostElements";
