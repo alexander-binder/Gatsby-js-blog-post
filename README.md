@@ -5,7 +5,7 @@
   </a>
 </p>
 <h1 align="center">
-  Alexander First blog in Gatsby.js
+  Alexander's First blog in Gatsby.js
 </h1>
 
 This a full blog in gatsby.js react and MDX
@@ -32,8 +32,8 @@ Open [http://localhost:8000](http://localhost:8000) to view it in your browser.
 ![](images/Screenshot1.png)
 
 ----------------------------------------------------------------------------------
-I as well create with styledComponents and css Grid a Mailgun about page Clone 
-i am use a 12 column grid and I change the grid area of the components depending on the screen-size
+I as well create with styledComponents and css Grid a Mailgun about page Clone. 
+I am use a 12 column grid and I than change the grid area of the components depending on the screen-size
 
 ![](images/Screenshot2.png)
 
