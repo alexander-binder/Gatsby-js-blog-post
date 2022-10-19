@@ -4,16 +4,17 @@ import { H1, P } from "../elements";
 import { Container, Post, FeatureImage } from '../components';
 import { MDXRenderer } from 'gatsby-plugin-mdx';
 
-const singlePost = ({data}) => {
-    const featureImage = data.mdx.frontmatter.featureImage.childImageSharp.fixed;
+const singlePost = ({ data: { mdx }, children}) => {
+    const featureImage = mdx.frontmatter.featureImage.childImageSharp.fixed;
 
     return (
         <Container>
 
             <FeatureImage fixed={featureImage}/>
             <Post>
-                <H1 margin="0 0 2rem 0">{data.mdx.frontmatter.title}</H1>
-                <MDXRenderer>{data.mdx.body}</MDXRenderer>
+                <H1 margin="0 0 2rem 0">{mdx.frontmatter.title}</H1>
+                {/* <MDXRenderer>{data.mdx.body}</MDXRenderer> */}
+                {mdx.body}
             </Post>
         </Container>
     );

@@ -5,7 +5,8 @@ import {
     Content,
     ContentCard,
     FeatureImage,
-    Pagination, 
+    Pagination,
+    Footer, 
 } from "../components";
 import { H1, P } from "../elements";
 
@@ -22,7 +23,7 @@ const allPosts = ({ pageContext, data }) => {
 
     const posts = data.allMdx.edges
 
-    return (
+    return ( <>
         <Container>
         <FeatureImage/>
         <Content>
@@ -40,14 +41,21 @@ const allPosts = ({ pageContext, data }) => {
             ))}
             
         </Content>
-        <Pagination 
+        {/* <Pagination 
+            isFirst={isFirst} 
+            isLast={isLast}
+            prevPage={prevPage}
+            nextPage={nextPage}
+        /> */}
+      </Container>
+            <Pagination 
             isFirst={isFirst} 
             isLast={isLast}
             prevPage={prevPage}
             nextPage={nextPage}
         />
-      </Container>
-    );
+        <Footer/>
+  </> );
 }
 
 export default allPosts;

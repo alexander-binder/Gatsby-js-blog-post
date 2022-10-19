@@ -15,13 +15,13 @@ export const Nav = () => {
   return (
     <NavWrapper>
      
-        <div className='liks'>
+       
             <Link to='/'>
               <img src={data.logo.publicURL} alt="My logo" />
             </Link>
             <Link to='/about'>About</Link>
             <Link to='/projects'>Projects</Link>
-        </div>
+        
     </NavWrapper>
     
   )

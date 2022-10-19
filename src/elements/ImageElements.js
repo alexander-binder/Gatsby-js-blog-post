@@ -11,3 +11,16 @@ export const FeatureImageWrapper = styled.div`
         grid-column: 2 / span 6;
     }
 `;
+
+
+export const RightSideFeatureImageWrapper = styled.div`
+
+    grid-column: 7 / span 4;
+    grid-row: 3 / 6;
+    overflow: hidden;
+    position: relative;
+
+    /* @media ${props => props.theme.breakpoints.tablet} {
+        grid-column: 2 / span 6;
+    } */
+`;

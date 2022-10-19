@@ -3,15 +3,32 @@ import styled from "styled-components";
 
 export const P = styled.p`
     margin: ${props => props.margin ? props.margin : 0 };
-    
+
+    letter-spacing: ${props => props.spacing ? props.spacing : 0 };
+
+    font-family: ${props => {
+        switch (props.fontFamily) {
+            case "code":
+                return props.theme.fonts.code
+            case "main":
+                return props.theme.fonts.main
+            default:
+                return props.theme.fonts.main
+        }
+    }};
+
     font-size: ${props => {
         switch (props.size) {
+            case "large":
+                return "22px"
             case "medium":
                 return "1.125rem"
             case "small":
                 return "1rem"
             case "xSamll":
                 return "0.875rem"
+            case "xxSamll":
+                return "12px"
             default:
                 return "1.125rem"
         }
@@ -55,6 +72,8 @@ export const P = styled.p`
                 return props.theme.color.light1
             case "light2":
                 return props.theme.color.light2
+                case "lightGray":
+                return props.theme.color.lightGray
             default:
                 return props.theme.color.dark1
         }
