@@ -12,7 +12,7 @@ This a full blog in gatsby.js react and MDX
 I am using styled components css Grid and flex for the styling.
 
 I created blog post in MDX format 
-and than display them  with help of the inbuild graphQl Api to fetch each blog form gatsby-source-filesystem.
+and than display them  with help of the inbuild graphQl Api to fetch each blog form the gatsby-source-filesystem.
 
 For image optermisation on diffrent screen sizes I use the: gatsby-plugin-image, gatsby-plugin-sharp, gatsby-transformer-sharp.
 
