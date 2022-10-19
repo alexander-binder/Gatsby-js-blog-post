@@ -14,7 +14,7 @@ I am using styled components css Grid and flex for the styling.
 I created blog post in MDX format 
 and than display them  with help of the inbuild graphQl Api to fetch each blog form gatsby-source-filesystem.
 
-For image optermisation on diffrent screen sizes I use  gatsby-plugin-image, gatsby-plugin-sharp, gatsby-transformer-sharp.
+For image optermisation on diffrent screen sizes I use the: gatsby-plugin-image, gatsby-plugin-sharp, gatsby-transformer-sharp.
 
 
 I created blogPost template pages and use the gatsby-node.js to auto gernerate pages for each blog post.
@@ -32,8 +32,8 @@ Open [http://localhost:8000](http://localhost:8000) to view it in your browser.
 ![](images/Screenshot1.png)
 
 ----------------------------------------------------------------------------------
-I as well create with styledComponents and css Grid a Mailgun about page Clone. 
-I am use a 12 column grid and I than change the grid area of the components depending on the screen-size
+I as well created with styledComponents and css Grid a Mailgun about page Clone. 
+I am use a 12 column grid and I than change the grid area of the components depending on the screen-size.
 
 ![](images/Screenshot2.png)
 
