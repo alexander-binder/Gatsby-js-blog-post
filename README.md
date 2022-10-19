@@ -17,7 +17,7 @@ and than display them  with help of the inbuild grahQl Api to fetch each blog fo
 For image optermisation on diffrent screen sizes I use  gatsby-plugin-image, gatsby-plugin-sharp, gatsby-transformer-sharp
 
 
-I create blogPost template pages and use the gatsby-node.js to auto gernerate pages for each blog post.
+I created blogPost template pages and use the gatsby-node.js to auto gernerate pages for each blog post.
 
 
 ## Available Scripts
