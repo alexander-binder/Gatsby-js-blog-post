@@ -39,4 +39,4 @@ i am use a 12 column grid and I change the grid area of the components depending
 
 ----------------------------------------------------------------------------------
 
-![](images/Screenshot2.png)
+![](images/Screenshot3.png)
