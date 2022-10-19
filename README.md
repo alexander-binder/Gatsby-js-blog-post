@@ -8,7 +8,7 @@
   Alexander's First blog in Gatsby.js
 </h1>
 
-This a full blog in gatsby.js react and MDX
+This is a full blog in gatsby.js, react and MDX
 I am using styled components css Grid and flex for the styling.
 
 I created blog post in MDX format 
