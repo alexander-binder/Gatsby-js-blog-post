@@ -15,12 +15,18 @@ export const FeatureImageWrapper = styled.div`
 
 export const RightSideFeatureImageWrapper = styled.div`
 
-    grid-column: 7 / span 4;
-    grid-row: 3 / 6;
+    grid-column: 8 / span 3;
+    grid-row: 1 ;
     overflow: hidden;
     position: relative;
+    display: flex;
+    align-items: center;
 
     /* @media ${props => props.theme.breakpoints.tablet} {
         grid-column: 2 / span 6;
     } */
+
+    @media ${props => props.theme.breakpoints.mobile}{
+        grid-column: 2 / span 9;
+    }
 `;

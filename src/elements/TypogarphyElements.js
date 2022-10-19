@@ -72,8 +72,10 @@ export const P = styled.p`
                 return props.theme.color.light1
             case "light2":
                 return props.theme.color.light2
-                case "lightGray":
+            case "lightGray":
                 return props.theme.color.lightGray
+            case "lightGray2":
+                return props.theme.color.lightGray2
             default:
                 return props.theme.color.dark1
         }
