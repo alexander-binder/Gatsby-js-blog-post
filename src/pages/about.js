@@ -27,10 +27,11 @@ export default function About() {
 
       <ContactContainerWrapper>
         <TopWrapper>
-          
+            <TopTextWrapper>
                 <P fontFamily="code" size="xSamll" color="lightGray" spacing="2px" weight="bold">UN BESOIN COMMERCIAL ? CONTACTEZ-NOUS</P>
                 <h1>Contacter notre équipe commerciale</h1>
-                <P color="lightGray2" size="large">Notre équipe est à votre disposition pour trouver la solution qui vous convient, discuter des différentes options de fonctionnalités et de prix, et vous fournir les informations dont vous avez besoin.</P>
+                <P color="lightGray2" size="xLarge" spacing="2px" weight="normal">Notre équipe est à votre disposition pour trouver la solution qui vous convient, discuter des différentes options de fonctionnalités et de prix, et vous fournir les informations dont vous avez besoin.</P>
+              </TopTextWrapper>
         </TopWrapper>
         <BottomWrapper></BottomWrapper>
       </ContactContainerWrapper>

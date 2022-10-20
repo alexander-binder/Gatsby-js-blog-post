@@ -21,6 +21,8 @@ export const P = styled.p`
         switch (props.size) {
             case "large":
                 return "22px"
+            case "xLarge":
+                return "28px"
             case "medium":
                 return "1.125rem"
             case "small":
