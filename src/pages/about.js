@@ -35,7 +35,7 @@ export default function About() {
         </TopWrapper>
         <BottomWrapper>
             <h3>Comment Mailjet peut vous aider</h3>
-            <P color="dark1"  >Découvrez ce que vous pouvez accomplir avec la meilleure plateforme de livraison d’emails au monde.</P>
+            <P   fontFamily="code">Découvrez ce que vous pouvez accomplir avec la meilleure plateforme de livraison d’emails au monde.</P>
           <Form/>
         </BottomWrapper>
       </ContactContainerWrapper>

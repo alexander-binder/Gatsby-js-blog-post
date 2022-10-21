@@ -38,6 +38,26 @@ export const BottomWrapper = styled.div`
     flex-direction: column;
     justify-content: center;
     align-items: center;
+
+    & h3 {
+        color: rgb(19, 27, 32);
+        font-family: "Source Serif Pro";
+        font-size: 24px;
+        font-weight: 600;
+        line-height: 32px;
+        margin: 1rem;
+    }
+
+    & P {
+        text-align: center;
+        font-family: Roboto;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        color: #195a6a;
+        /* margin-top: 3rem; */
+
+    }
     
 `;
 
@@ -48,8 +68,8 @@ export const TopTextWrapper = styled.div`
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-left: 23rem;
-    margin-right: 23rem;
+    margin-left: 19rem;
+    margin-right: 19rem;
     text-align: center;
 
     & h1 {
@@ -58,6 +78,8 @@ export const TopTextWrapper = styled.div`
         line-height: 56px;
         color: white;
         margin-bottom: 2rem;
+
+        
         /* letter-spacing: 0.5rem; */
     };
 
