@@ -1,10 +1,10 @@
 import React from 'react'
-import { AboutContainer, RightFeatureImage } from '../components/about';
+import { AboutContainer, RightFeatureImage, Form } from '../components/about';
 import { AboutTextWrapper, ButtonWrapper, PWrapper} from '../elements/about';
 import { Button } from '../components';
 import { P, Button2, MainWrapper} from '../elements';
 import { ContactContainerWrapper, TopWrapper, BottomWrapper, TopTextWrapper } from '../elements/contact';
-
+import { ContactForm } from '../elements/contact';
 
 export default function About() {
   return (
@@ -30,10 +30,14 @@ export default function About() {
             <TopTextWrapper>
                 <P fontFamily="code" size="xSamll" color="lightGray" spacing="2px" weight="bold">UN BESOIN COMMERCIAL ? CONTACTEZ-NOUS</P>
                 <h1>Contacter notre équipe commerciale</h1>
-                <P color="lightGray2" size="xLarge" spacing="2px" weight="normal">Notre équipe est à votre disposition pour trouver la solution qui vous convient, discuter des différentes options de fonctionnalités et de prix, et vous fournir les informations dont vous avez besoin.</P>
+                <P color="lightGray2" size="large" spacing="2px" weight="normal">Notre équipe est à votre disposition pour trouver la solution qui vous convient, discuter des différentes options de fonctionnalités et de prix, et vous fournir les informations dont vous avez besoin.</P>
               </TopTextWrapper>
         </TopWrapper>
-        <BottomWrapper></BottomWrapper>
+        <BottomWrapper>
+            <h3>Comment Mailjet peut vous aider</h3>
+            <P color="dark1"  >Découvrez ce que vous pouvez accomplir avec la meilleure plateforme de livraison d’emails au monde.</P>
+          <Form/>
+        </BottomWrapper>
       </ContactContainerWrapper>
     </MainWrapper>
   );

@@ -6,7 +6,7 @@ export const ContactContainerWrapper = styled.div`
     height: 100%;
     display: grid;
     grid-template-columns: repeat(8, 1fr) ;
-    grid-template-rows: 23rem 6rem 6rem 40rem 15rem;
+    grid-template-rows: 23rem 6rem 6rem 35rem 15rem;
     column-gap: 60px;
     background-color: rgb(245, 248, 250);
 `;
@@ -33,6 +33,11 @@ export const BottomWrapper = styled.div`
     border-top: 4px solid rgb(149, 133, 244);
     box-shadow: rgb(0 32 37 / 32%) 0px 16px 48px -16px;
     padding: 64px;
+   
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     
 `;
 
@@ -43,17 +48,17 @@ export const TopTextWrapper = styled.div`
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-left: 31rem;
-    margin-right: 31rem;
+    margin-left: 23rem;
+    margin-right: 23rem;
     text-align: center;
 
     & h1 {
-        font-size: 49px;
+        font-size: 45px;
         font-weight: bold;
         line-height: 56px;
         color: white;
         margin-bottom: 2rem;
-        letter-spacing: 0.5rem;
+        /* letter-spacing: 0.5rem; */
     };
 
     & :nth-child(1) {
