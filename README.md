@@ -40,3 +40,8 @@ I am use a 12 column grid and I than change the grid area of the components depe
 ----------------------------------------------------------------------------------
 
 ![](images/Screenshot3.png)
+
+
+----------------------------------------------------------------------------------
+
+![](images/Screenshot4.png)
