@@ -5,6 +5,7 @@ import { Button } from '../components';
 import { P, Button2, MainWrapper} from '../elements';
 import { ContactContainerWrapper, TopWrapper, BottomWrapper, TopTextWrapper } from '../elements/contact';
 import { ContactForm } from '../elements/contact';
+import { FonctionnaliteContainerWrapper, FonctionnalteItemsWrapper, FonctionnalteItem} from '../elements/fonctionnalites';
 
 export default function About() {
   return (
@@ -39,6 +40,54 @@ export default function About() {
           <Form/>
         </BottomWrapper>
       </ContactContainerWrapper>
+
+      <FonctionnaliteContainerWrapper>
+          <FonctionnalteItemsWrapper>
+
+              <FonctionnalteItem>
+                <P size="large"  weight="bold">Personnalisation</P>
+                <P color="dark1">Créez des communications personnalisées et ciblées. Utilisez les sections dynamiques pour envoyer une campagne unique qui affiche des messages différents en fonction des personnes qui l’ouvrent</P>
+              </FonctionnalteItem>
+
+              <FonctionnalteItem>
+                <P size="large"  weight="bold">Personnalisation</P>
+                <P color="dark1">Créez des communications personnalisées et ciblées. Utilisez les sections dynamiques pour envoyer une campagne unique qui affiche des messages différents en fonction des personnes qui l’ouvrent</P>
+              </FonctionnalteItem>
+
+              <FonctionnalteItem>
+                <P size="large"  weight="bold">Personnalisation</P>
+                <P color="dark1">Créez des communications personnalisées et ciblées. Utilisez les sections dynamiques pour envoyer une campagne unique qui affiche des messages différents en fonction des personnes qui l’ouvrent</P>
+              </FonctionnalteItem>
+
+              <FonctionnalteItem>
+                <P size="large"  weight="bold">Personnalisation</P>
+                <P color="dark1">Créez des communications personnalisées et ciblées. Utilisez les sections dynamiques pour envoyer une campagne unique qui affiche des messages différents en fonction des personnes qui l’ouvrent</P>
+              </FonctionnalteItem>
+
+
+              <FonctionnalteItem>
+                <P size="large"  weight="bold">Personnalisation</P>
+                <P color="dark1">Créez des communications personnalisées et ciblées. Utilisez les sections dynamiques pour envoyer une campagne unique qui affiche des messages différents en fonction des personnes qui l’ouvrent</P>
+              </FonctionnalteItem>
+
+              <FonctionnalteItem>
+                <P size="large"  weight="bold">Personnalisation</P>
+                <P color="dark1">Créez des communications personnalisées et ciblées. Utilisez les sections dynamiques pour envoyer une campagne unique qui affiche des messages différents en fonction des personnes qui l’ouvrent</P>
+              </FonctionnalteItem>
+
+          </FonctionnalteItemsWrapper>
+      </FonctionnaliteContainerWrapper>
+      
+
+      {/* <FonctionnaliteContainerWrapper>
+        <FonctionnaliteItemsWrapper>
+          <FonctionnalteItem>
+          <P size="large"  weight="bold">Personnalisation</P>
+          <P color="lightGray2">Créez des communications personnalisées et ciblées. Utilisez les sections dynamiques pour envoyer une campagne unique qui affiche des messages différents en fonction des personnes qui l’ouvrent</P>
+          </FonctionnalteItem>
+        </FonctionnaliteItemsWrapper>
+      </FonctionnaliteContainerWrapper> */}
+      
     </MainWrapper>
   );
 }
