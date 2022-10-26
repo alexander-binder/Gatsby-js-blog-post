@@ -33,7 +33,7 @@ Open [http://localhost:8000](http://localhost:8000) to view it in your browser.
 
 ----------------------------------------------------------------------------------
 I as well created with styledComponents and css Grid a Mailgun about page Clone. 
-I am use a 12 column grid and I than change the grid area of the components depending on the screen-size.
+I am use a 12 column grid and I than change the grid area of the components depending on the screen-size..
 
 ![](images/Screenshot4.png)
 
